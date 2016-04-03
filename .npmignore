@@ -1,0 +1,12 @@
+dist/dev.react-tabs.js
+dist/dev.react-tabs.css
+dist/.gitkeep
+images
+scripts
+index.html
+.idea
+webpack.config.js
+.eslintrc
+.babelrc
+/src
+.npmignore

@@ -1,0 +1,18 @@
+.react-tabs {
+  .tab-list {
+    margin: 0; padding: 0;
+    .tab {
+      cursor: pointer; display: inline-block; list-style: none; border: 1px solid #d2d2d2; min-width: 100px;
+      margin-right: 5px; border-bottom: 0; padding: 10px; background-color: #e7e7e7;
+      &.active {
+        font-weight: bold; position: relative; background-color: #fff;
+        &:after {
+          position: absolute; left: 0; right: 0; bottom: -1px; background-color: #fff; height: 1px; content: '';
+        }
+      }
+    }
+  }
+  .tab-panel {
+    border: 1px solid #d2d2d2; background-color: #fff;
+  }
+}
