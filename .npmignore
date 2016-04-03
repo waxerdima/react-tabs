@@ -10,3 +10,4 @@ webpack.config.js
 .babelrc
 /src
 .npmignore
+npm-debug.log
