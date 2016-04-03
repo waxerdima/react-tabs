@@ -27,7 +27,7 @@
     "webpack",
     "babel"
   ],
-  "dependencies": {
+  "devDependencies": {
     "semver": "^5.1.0",
     "webpack": "^1.12.14",
     "babel-core": "~6.3.17",
