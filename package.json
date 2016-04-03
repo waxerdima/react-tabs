@@ -1,5 +1,5 @@
 {
-  "name": "react-tabs",
+  "name": "ui-react-tabs",
   "version": "1.0.2",
   "description": "Tabs for React",
   "main": "./dist/react-tabs.js",
