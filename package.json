@@ -1,6 +1,6 @@
 {
   "name": "ui-react-tabs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Tabs for React",
   "main": "./dist/react-tabs.js",
   "style": "./dist/react-tabs.css",
