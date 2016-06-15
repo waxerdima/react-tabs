@@ -14,10 +14,12 @@ export default class Tabs extends React.Component {
   changeTab(tab) {
     this.setState({
       active: tab + 1
+    }, () => {
+      this.props.onChange && this.props.onChange(tab + 1);
     });
   }
 
-  children()  {
+  children() {
     var panelIndex = 0;
     return React.Children.map(this.props.children, function(tab) {
       if (TabList === tab.type) {
